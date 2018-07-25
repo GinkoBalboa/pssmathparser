@@ -1,0 +1,39 @@
+################################################################################
+# Input file for testing of mathparser library
+#  - Binary test4 runs this file.
+#  - This input is for testing speed of the parser calculation.
+#  - First line is input and next lines are variable values and last line is
+#    output.
+########################################################## Diode equaiton ###001
+#### 1. i: Number of iterations
+#### 2. factor: Factor to multiply the i with and set as value for next parameter
+#### 3. offset: Offset to add to value for next parameter
+Io*(exp(qe*V/(kBJ*(ToK+TC)))-1)
+i=1000000
+factor=1.0e-20
+offset=1.0e-11
+Io
+factor=1.0e-5
+offset=0
+TC
+factor=1.0e-5
+offset=0
+V
+#############################################################################002
+Io*(exp(qe*V/(kBJ*(ToK+TC)))-1)+Io*(exp(qe*V^2.5/(kBJ*(ToK+TC)))-2)
+i=1000000
+factor=1.0e-20
+offset=1.0e-11
+Io
+factor=1.0e-5
+offset=0
+TC
+factor=1.0e-5
+offset=0
+V
+#############################################################################003
+cos(2*pi*3*t)*exp(-pi*t^2)
+i=1000000
+factor=1.0e-3
+offset=-5
+t
