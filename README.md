@@ -14,6 +14,11 @@ parsed to yield a map of arguments and operators that can be reused. The RP map
 can be used as an arbitrary function by setting the user defined variables in
 the expression and calling for the calculation of the result.
 
+You can find more about the project on the website 
+[Skalamerie](http://skalamerie.com/project.php?page=pssmathparser-1)
+Where you can get the .so file of the latest release and the Doxygen generated html
+[Doxygen HTML](http://www.skalamerie.com/pages/projects/pssmathparser/doxygen/html/index.html)
+
 ## Contributing
 
 One of the purposes of this repository is to continue to develop this library.
